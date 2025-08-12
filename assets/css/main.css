@@ -4705,6 +4705,17 @@ input, select, textarea {
 }
 
 
+.posts {
+  display: flex;         /* makes container flexbox */
+  flex-wrap: wrap;       /* allow wrapping to next line */
+  gap: 20px;             /* space between projects */
+}
+
+.posts article {
+  flex: 1 1 calc(50% - 20px); /* each article takes about half width minus gap */
+  box-sizing: border-box;      /* include padding/border in width */
+}
+
 
 
 
