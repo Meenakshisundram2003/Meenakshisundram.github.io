@@ -4769,6 +4769,18 @@ input, select, textarea {
     }
 }
 
+@media screen and (max-width: 768px) {
+    section.posts {
+        display: flex;             /* make it a flex container */
+        flex-direction: column;    /* stack items vertically */
+    }
+
+    section.posts article {
+        width: 100% !important;    /* each box takes full width */
+        margin-bottom: 20px;       /* space between projects */
+    }
+}
+
 
 
 
