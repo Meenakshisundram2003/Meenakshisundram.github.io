@@ -4761,6 +4761,13 @@ input, select, textarea {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .your-name-class {
+        font-size: 1.2rem !important; /* smaller font size for mobile */
+        margin: 10px 0 !important;   /* adjust spacing if needed */
+        line-height: 1.2 !important;  /* tighter line height */
+    }
+}
 
 
 
