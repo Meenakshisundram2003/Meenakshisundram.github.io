@@ -4699,3 +4699,8 @@ input, select, textarea {
     margin-top: 0.5em !important;
 }
 
+.indent {
+    display: inline-block;  /* or block */
+    margin-left: 20px;      /* adjust to how much indent you want */
+}
+
