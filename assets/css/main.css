@@ -4700,7 +4700,9 @@ input, select, textarea {
 }
 
 .indent {
-    display: inline-block;  /* or block */
     margin-left: 20px;      /* adjust to how much indent you want */
+	vertical-align: middle;  /* aligns text vertically with the role */
+
 }
+
 
