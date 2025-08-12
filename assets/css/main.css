@@ -5,6 +5,7 @@
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -4687,3 +4688,13 @@ input, select, textarea {
 		}
 
 	}
+
+#intro h1 {
+    font-size: 2.5rem;      /* Reduce font size */
+    line-height: 1.2;       /* Tighter line spacing */
+    margin-bottom: 0.5em;   /* Reduce space below the name */
+}
+
+#intro p {
+    margin-top: 0.5em;      /* Pull intro text closer to the name */
+}
