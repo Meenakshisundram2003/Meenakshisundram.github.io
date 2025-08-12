@@ -4717,6 +4717,25 @@ input, select, textarea {
 }
 
 
+.posts article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+}
+
+.posts article header {
+  text-align: center;
+}
+
+.posts article header h2 {
+  margin: 12px 0 8px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+
 
 
 
