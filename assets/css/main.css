@@ -4737,6 +4737,22 @@ input, select, textarea {
   font-size: 1.25rem;
 }
 
+/* Adjust for mobile view */
+@media screen and (max-width: 768px) {
+    .profile-pic {
+        width: 120px; /* smaller image */
+        height: auto; /* keep ratio */
+        display: block;
+        margin: 0 auto; /* center in mobile */
+    }
+
+    .header-container {
+        flex-direction: column; /* stack name below image */
+        align-items: center;
+        text-align: center;
+    }
+}
+
 
 
 
