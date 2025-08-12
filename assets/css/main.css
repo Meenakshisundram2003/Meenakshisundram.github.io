@@ -4762,10 +4762,11 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 768px) {
-    .your-name-class {
-        font-size: 1.2rem !important; /* smaller font size for mobile */
-        margin: 10px 0 !important;   /* adjust spacing if needed */
-        line-height: 1.2 !important;  /* tighter line height */
+    #intro h1 {
+        font-size: 1.8rem !important;  /* smaller font size for name on mobile */
+        line-height: 1.2 !important;   /* tighten line height */
+        margin-bottom: 10px !important; /* adjust spacing if needed */
+        word-break: break-word;           /* prevent overflow if long names */
     }
 }
 
@@ -4780,6 +4781,7 @@ input, select, textarea {
         margin-bottom: 20px;       /* space between projects */
     }
 }
+
 
 
 
