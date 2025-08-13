@@ -4737,6 +4737,22 @@ input, select, textarea {
   font-size: 1.25rem;
 }
 
+.project-title {
+  min-height: 56px; /* adjust so the tallest title fits */
+  display: flex;
+  align-items: center; /* optional for vertical centering */
+}
+
+
+.project img {
+  height: 260px; /* pick one height for all project images */
+  object-fit: cover;
+}
+
+.project-summary {
+  margin-top: 0;
+}
+
 @media screen and (max-width: 768px) {
     img[alt="Profile Photo"] {
         position: relative !important;
@@ -4781,6 +4797,8 @@ input, select, textarea {
         margin-bottom: 20px;       /* space between projects */
     }
 }
+
+
 
 
 
